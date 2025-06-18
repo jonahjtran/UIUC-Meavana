@@ -48,7 +48,7 @@ function Hero() {
       <div className="absolute top-0 left-0 w-full h-32 bg-orange-500 opacity-10 transform -skew-y-6 z-0"></div>
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-6 py-16 relative z-10">
         <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <h1 className="text-4xl font-extrabold mb-4 text-purple-700">Introducing Meavana</h1>
+          <h1 className="text-4xl font-extrabold mb-4 text-purple-700">Introducing MeaVana</h1>
           <p className="text-lg mb-6 text-gray-700">The tool to maximize your Illini journey</p>
           <div className="space-x-4">
             <a
@@ -100,9 +100,9 @@ function MissionStats() {
 
 function Features() {
   const items = [
-    { title: 'Multiple Search Bars', desc: 'Quickly find info across all your classes and notes.', img: '/images/focus-timer.png' },
-    { title: 'Notepad & Sticky Notes', desc: 'Jot down ideas during lectures or set reminders for assignments.', img: '/images/digital-notes.png' },
-    { title: 'Stunning Wallpapers', desc: 'Every morning, be greeted by a handpicked wallpaper that fits your vibe & keeps you inspired.', img: '/images/themes.png' },
+    { title: 'Multiple Search Bars', desc: 'Quickly find info across all your classes and notes.', img: '/bars.png' },
+    { title: 'Notepad & Sticky Notes', desc: 'Jot down ideas during lectures or set reminders for assignments.', img: '/notes.png' },
+    { title: 'Stunning Wallpapers', desc: 'Every morning, be greeted by a handpicked wallpaper that fits your vibe & keeps you inspired.', img: '/background.png' },
   ];
   return (
     <section id="features" className="bg-white py-16">
