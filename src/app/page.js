@@ -66,7 +66,7 @@ function Hero() {
           </div>
         </div>
         <div className="w-full lg:w-1/2 mb-10 lg:mb-0 flex justify-center">
-          <img src="/images/Meavana Quad.png" alt="Meavana Quad" className="w-3/4 rounded-xl shadow-lg border-4 border-orange-200" />
+          <img src="/quad.png" alt="Meavana Quad" className="w-3/4 rounded-xl shadow-lg border-4 border-orange-200" />
         </div>
       </div>
     </section>
